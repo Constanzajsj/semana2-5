@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../statics/css/listas.css" rel="stylesheet">
+    <title>tareas</title>
+</head>
+    <body>
+        <div class="cont">
+                <h1>Lista de tareas</h1>
+                <label for="materias">
+                    <strong>
+                        Materias
+                    </strong>
+                </label>
+                <br>
+                <select id="tareas">
+                    <option value="Nueva">
+                        Materia
+                    </option>
+                </select>
+                <br><br>
+                <label>
+                    <strong>
+                        Nueva materia
+                    </strong>
+                    <br>
+                    <input id="otro">
+                </label>
+                
+                <br><br>
+                <label id="identificador">
+                    <strong>
+                        Tarea
+                    </strong>
+                    <br>
+                    <input type="text" id="nuevaTarea">
+                </label>
+                <br><br>
+                <button id="asignar">
+                    Añadir tarea
+                </button>
+                <br><br>
+        </div>
+        <br><br>
+        <div class="cont1" id="cont2">
+                <ul id="listas">
+                    <!--Aqui se agregan las listas--> 
+                </ul>  
+        </div>
+        <br><br> 
+        <div id="cuenta">
+        </div>
+        <script src="../dynamics/js/listas.js"></script>
+    </body>
+</html>
