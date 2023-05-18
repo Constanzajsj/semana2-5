@@ -2,17 +2,17 @@
 @font-face 
 {
     font-family:Albas;
-    src: url(../fonts/ALBAS___.TTF);
+    src: url(../fonts/Albas/ALBAS___.TTF);
 }
 @font-face 
 {
     font-family:Albas2;
-    src: url(../fonts/ALBA____.TTF);
+    src: url(../fonts/Albas/ALBA____.TTF);
 }
 @font-face 
 {
     font-family:Monserrat;
-    src: url(../fonts/Montserrat-Regular.ttf);
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
 }
 /*-------------------------*/
 /*Cursor*/

@@ -1,0 +1,99 @@
+/* Fuentes */
+/*------------------------*/
+/*título pirncipal*/
+.titulo
+{
+    color: rgb(249, 41, 145);
+    text-align: center;
+    position:static;
+    font-size:xx-large;
+}
+/*-------------------------*/
+/*subtítulos*/
+h2
+{
+    color: rgb(249, 41, 148);
+    text-align: center;
+    font-size:xx-large;
+}
+/*-------------------------*/
+/*texto general*/
+/* p
+{
+    font-family: "Monserrat", fantasy;  
+} */
+i
+{
+    color: blue;
+}
+strong
+{
+    color: blueviolet;
+}
+ul
+{
+    text-align: justify;
+}
+
+
+
+
+
+p.overflow
+{
+    text-align: center;
+    overflow:auto;
+}
+.centrado
+{
+    text-align: center;
+}
+/*-------------------------*/
+
+
+
+
+
+
+/*fondo y modelo de caja*/
+#fondo
+{
+    background-image: url(https://i.pinimg.com/564x/3d/bb/b3/3dbbb3b19edae57453c7290fa4a5246e.jpg) ;
+    border: 10px;
+    border-style: dotted;
+    border-color: rgb(174, 113, 231);
+    background-size:cover;
+    background-repeat:repeat;
+    margin-top: 40px;
+    margin-right: 120px;
+    margin-left: 120px;
+    margin-bottom: 40px;
+    padding: 15px,15px,15px,15px;
+}
+/*-------------------------*/
+/*imágenes*/
+.imagen
+{
+    display: block;
+    margin-left: auto;
+}
+#imagen2
+{
+    position: relative;
+    left: 40%;
+}
+/*-------------------------*/
+/*links*/
+a:visited
+{
+    color: hotpink;
+    text-align: justify;
+    font-family: "Monserrat", fantasy; 
+}
+a:link
+{
+    color: hotpink;
+    text-align: justify;
+    font-family: "Monserrat", fantasy; 
+}
+/*-------------------------*/
